@@ -1,0 +1,41 @@
+ /* Custom CSS for the match page */
+ body {
+    background: radial-gradient(506px at 50.6% 16.5%, rgb(239, 252, 250) 5.5%, rgb(154, 192, 206) 100.2%);
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  .ALLtables{
+    margin-top: 50px;
+  }
+  .container{
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    text-align: start;
+    gap: 100px;
+  }
+  .row{
+    margin-bottom: 50px;
+  }
+ 
+  .match-info {
+    background: linear-gradient(109.6deg, rgb(163, 217, 207) 11.2%, rgb(4, 178, 217) 100.2%);
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    color: #132257;
+    padding: 2rem;
+    text-align: center;
+    
+  }
+  .match-info.w-100 {
+    width: 100%;
+  }
+  .match-info h1 {
+    color: #132257;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .match-info p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
